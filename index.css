@@ -1,0 +1,754 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: blue;
+    display: flex;
+    width: 100%;
+    height: 80px;
+    justify-content: space-between;
+}
+.logo{
+    width: 70px;
+    height: 50px;
+    background-color: black;
+    margin: 15px;
+}
+nav{
+    width: 50%;
+    height: 50px;
+    background-color: yellow;
+    margin-right: 20px;
+    margin-top: 15px;
+}
+.home{
+    background-color: red;
+    height: 600px;
+}
+.box_main{
+    background-color: green;
+    width: 30%;
+    height: 60px;
+    position: relative;
+    top: 60px;
+    left: 250px;
+}
+.home .img{
+    background-color: violet;
+    width: 80%;
+    height: 450px;
+    position: relative;
+    top: 40px;
+    left: 30px;
+}
+.para{
+    position: relative;
+    width: 220%;
+    height: 100px;
+    background-color: white;
+    top: 80px;
+}
+.button{
+    position: relative;
+    width: 40%;
+    height: 80px;
+    background-color: lightblue;
+    top: 110%;
+    left: 140px;
+}
+ .about{
+    background-color: green;
+    height: 500px;
+ }
+ .about .main{
+    background-color:black;
+    width: 80%;
+    height: 450px;
+    position: relative;
+    top: 40px;
+    left: 30px;
+}
+ .box_main2{
+    background-color: gray;
+    width: 30%;
+    height: 80px;
+    position: relative;
+    top: -400px;
+    left: 40%;
+}
+ .image{
+    background-color:goldenrod;
+    width: 100%;
+    height: 400px;
+    position: relative;
+    top: -230px;
+    left: -250%;
+}
+.para2{
+    position: relative;
+    width: 120%;
+    height: 100px;
+    background-color: gray;
+    top: 80px;
+}
+.button2{
+    position: relative;
+    width: 40%;
+    height: 80px;
+    background-color: gray;
+    top: 110%;
+    left: 140px;
+}
+.ourfacility{
+    background-color: crimson;
+    height: 500px;
+}
+
+.heading{
+    text-align: center;
+ }
+ 
+ .heading img{
+   width: 50px;
+   height: 40px;
+   background-color: aquamarine;
+   margin-top: 50px;
+    
+ }
+ .heading h1{
+    width: 25%;
+    height: 40px;
+    background-color: chocolate;
+    margin-top: 10px;
+    margin-left: 40%;
+ }
+ .ourfacility .box-container .box{
+    text-align: center;
+ }
+ .ourfacility .box-container .box img{
+    height: 120px;
+    width: 200px;
+    background-color: black;
+    position: relative;
+    top: 40px;
+    left: -40%;
+ }
+ 
+ .ourfacility .box-container .box h1{
+   width: 150px;
+   height: 40px;
+   background-color: blue;
+   position: relative;
+   top: 50px;
+   left: 25%;
+ }
+ 
+ .ourfacility .box-container .box p{
+    width:180px ;
+    height: 80px;
+    position: relative;
+    background-color: blue;
+    top: 60px;
+    left: 25%;
+ }
+ .ourfacility .box-container  .box1 img{
+    height: 120px;
+    width: 200px;
+    background-color: black;
+    position: relative;
+    top:-200px;
+    left: -20%;
+ }
+ .ourfacility .box-container .box1 h1{
+    width: 150px;
+    height: 40px;
+    background-color: blue;
+    position: relative;
+    top: -180px;
+    left: 5%;
+ }
+ .ourfacility .box-container .box1 p{
+    width: 180px;
+    height: 80px;
+    position: relative;
+    background-color: blue;
+    top: -170px;
+    left: 5%;
+ }
+ .ourfacility .box-container .box2 img{
+    width: 200px;
+    height: 120px;
+    background-color: black;
+    position: relative;
+    left: 0;
+    top: -450px;
+ }
+ .ourfacility .box-container .box2 h1{
+    width: 150px;
+    height: 40px;
+    background-color: blue;
+    position: relative;
+    left: 45%;
+    top: -440px;
+ }
+ .ourfacility .box-container .box2 p{
+    width: 180px;
+    height: 80px;
+    position: relative;
+    background-color: blue;
+    left: 45%;
+    top: -430px;
+ }
+ .ourfacility .box-container .box3 img{
+    width: 200px;
+    height: 120px;
+    background-color: black;
+    position: relative;
+    left: 20%;
+    top: -700px;
+ }
+ .ourfacility .box-container .box3 h1{
+    width: 150px;
+    height: 40px;
+    position: relative;
+    background-color: blue;
+    left: 65%;
+    top: -690px;
+ }
+ .ourfacility .box-container .box3 p{
+    width: 180px;
+    height: 80px;
+    position: relative;
+    background-color: blue;
+    left: 65%;
+    top: -680px;
+ }
+ .popularmenu{
+    background-color: blueviolet;
+    height: 800px;
+ }
+ .menu img{
+    width: 50px;
+   height: 40px;
+   background-color: aquamarine;
+   margin-top: 50px;
+   margin-left: 45%;
+ }
+ .menu h1{
+    width: 25%;
+    height: 40px;
+    background-color: chocolate;
+    margin-top: 10px;
+    margin-left: 35%;
+ }
+ .popularmenu .main-container .main{
+    text-align: center;
+ }
+ .popularmenu .main-container .main img{
+    width: 300px;
+    height: 150px;
+    background-color: brown;
+    position: relative;
+    left: -30%;
+    top: 20px;
+    border-radius: 130px;
+ }
+ .popularmenu .main-container .main h1{
+    width: 150px;
+    height: 40px;
+    background-color: pink;
+    position: relative;
+    left: 15%;
+    top: 30px;
+ }
+ .popularmenu .main-container .main1 img{
+    width: 300px;
+    height: 150px;
+    background-color: brown;
+    position: relative;
+    border-radius: 130px;
+    left: 0%;
+    top: -180px;
+ }
+ .popularmenu .main .main1 h1{
+    width: 150px;
+    height: 40px;
+    background-color: pink;
+    position: relative;
+    left: 45%;
+    top: -150px;
+ }
+ .popularmenu .main .main2 img{
+    width: 300px;
+    height: 150px;
+    background-color: brown;
+    position: realtive;
+    border-radius: 130px;
+    left: 30%;
+    top: -380px;
+ }
+ .popularmenu .main .main2 h1{
+    width: 150px;
+    height: 40px;
+    background-color: pink;
+    position: relative;
+    left: 75%;
+    top: -350px;
+ }
+ .popularmenu .main-container .main3 img{
+    width: 300px;
+    height: 150px;
+    background-color: brown;
+    position: realtive;
+    border-radius: 130px;
+    left: -30%;
+    top: -320px;
+ }
+ .popularmenu .main .main3 h1{
+    width: 150px;
+    height: 40px;
+    background-color: pink;
+    position: relative;
+    left: 15%;
+    top: -290px;
+ }
+ .popularmenu .main-container .main4 img{
+    width: 300px;
+    height: 150px;
+    background-color: brown;
+    position: realtive;
+    border-radius: 130px;
+    left: 0%;
+    top: -520px;
+ }
+ .popularmenu .main .main4 h1{
+    width: 150px;
+    height: 40px;
+    background-color: pink;
+    position: relative;
+    left: 45%;
+    top: -490px;
+ }
+ .popularmenu .main-container .main5 img{
+    width: 300px;
+    height: 150px;
+    background-color: brown;
+    position: realtive;
+    border-radius: 130px;
+    left: 30%;
+    top: -720px;
+ }
+ .popularmenu .main .main5 h1{
+    width: 150px;
+    height: 40px;
+    background-color: pink;
+    position: relative;
+    left: 75%;
+    top: -690px;
+ }
+ .ourgallery{
+    background-color: cadetblue;
+    height: 800px;
+ }
+ .gallery img{
+    width: 50px;
+    height: 40px;
+    background-color: red;
+    margin-top: 50px;
+    margin-left: 45%;
+ }
+ .gallery h1{
+    width: 25%;
+    height: 40px;
+    background-color: chocolate;
+    margin-top: 10px;
+    margin-left: 35%;
+ }
+ .ourgallery .gallery-container .mainmenu{
+    text-align: center;
+ }
+ .ourgallery .gallery-container .mainmenu img{
+    width: 300px;
+    height: 230px;
+    background-color: yellow;
+    position: relative;
+    top: 20px;
+    left: -35%;
+}
+.ourgallery .gallery-container .mainmenu1 img{
+    width: 300px;
+    height: 230px;
+    background-color: yellow;
+    position: relative;
+    top: -220px;
+    left: -5%;
+}
+.ourgallery .gallery-container .mainmenu2 img{
+    width: 300px;
+    height: 230px;
+    background-color: yellow;
+    position: relative;
+    top: -440px;
+    left: 25%;
+}
+.ourgallery .gallery-container .mainmenu3 img{
+    width: 300px;
+    height: 230px;
+    background-color: yellow;
+    position: relative;
+    top: -400px;
+    left: -35%;
+}
+.ourgallery .gallery-container .mainmenu4 img{
+    width: 300px;
+    height: 230px;
+    background-color: yellow;
+    position: relative;
+    top: -630px;
+    left: -5%;
+}
+.ourgallery .gallery-container .mainmenu5 img{
+    width: 300px;
+    height: 230px;
+    background-color: yellow;
+    position: relative;
+    top: -860px;
+    left: 25%;
+}
+.ourteam{
+    background-color: green;
+    height: 800px;
+}
+.teamheading img{
+    width: 50px;
+    height: 40px;
+    background-color: red;
+    margin-top: 50px;
+    margin-left: 45%;
+}
+.teamheading h1{
+    width: 25%;
+    height: 40px;
+    background-color: chocolate;
+    margin-top: 10px;
+    margin-left: 35%;
+}
+.ourteam .team-member .team{
+    text-align: center;
+}
+.ourteam .team-member .team img{
+    width: 300px;
+    height: 230px;
+    background-color: darkslategray;
+    position: relative;
+    top: 20px;
+    left: -35%;
+}
+.ourteam .team-member .team h1 {
+    width: 150px;
+    height: 40px;
+    background-color: pink;
+    position: relative;
+    left: 10%;
+    top: 30px;
+}
+.ourteam .team-member .team1 img{
+    width: 300px;
+    height: 230px;
+    background-color: darkslategray;
+    position: relative;
+    top: -250px;
+    left: -5%;
+}
+.ourteam .team-member .team1 h1 {
+    width: 150px;
+    height: 40px;
+    background-color: pink;
+    position: relative;
+    left: 40%;
+    top: -240px;
+}
+.ourteam .team-member .team2 img{
+    width: 300px;
+    height: 230px;
+    background-color: darkslategray;
+    position: relative;
+    top: -520px;
+    left: 25%;
+}
+.ourteam .team-member .team2 h1 {
+    width: 150px;
+    height: 40px;
+    background-color: pink;
+    position: relative;
+    left: 70%;
+    top: -510px;
+}
+.ourteam .team-member .team3 img{
+    width: 300px;
+    height: 230px;
+    background-color: darkslategray;
+    position: relative;
+    top: -500px;
+    left: -35%;
+}
+.ourteam .team-member .team3 h1 {
+    width: 150px;
+    height: 40px;
+    background-color: pink;
+    position: relative;
+    left: 10%;
+    top: -490px;
+}
+.ourteam .team-member .team4 img{
+    width: 300px;
+    height: 230px;
+    background-color: darkslategray;
+    position: relative;
+    top: -770px;
+    left: -5%;
+}
+.ourteam .team-member .team4 h1 {
+    width: 150px;
+    height: 40px;
+    background-color: pink;
+    position: relative;
+    left: 40%;
+    top: -760px;
+}
+.ourteam .team-member .team5 img{
+    width: 300px;
+    height: 230px;
+    background-color: darkslategray;
+    position: relative;
+    top: -1040px;
+    left: 25%;
+}
+.ourteam .team-member .team5 h1 {
+    width: 150px;
+    height: 40px;
+    background-color: pink;
+    position: relative;
+    left: 70%;
+    top: -1030px;
+}
+.contact{
+    height: 800px;
+    background-color: cornflowerblue;
+}
+.contactheading img{
+    width: 50px;
+    height: 40px;
+    background-color: red;
+    margin-top: 50px;
+    margin-left: 45%;
+}
+.contactheading h1{
+    width: 25%;
+    height: 40px;
+    background-color: chocolate;
+    margin-top: 10px;
+    margin-left: 35%;
+}
+.contactheading .formimage{
+    width: 20%;
+    height: 80%;
+    background-color: blue;
+    position: ;
+}
+.form{
+    width: 50%;
+    height: 600px;
+    background-color: brown;
+    margin-top: 20px;
+    margin-left: 45%;
+}
+.form h1{
+    width: 200px;
+    height: 60px;
+    background-color: black;
+    position: relative;
+   top: 50px;
+   left: 40%;
+}
+.form form{
+    width: 50%;
+    height: 350px;
+    background-color: black;
+    position: relative;
+    top: 100px;
+    left: 30%;
+}
+form .username{
+    width: 180px;
+    height: 40px;
+    background-color: blue;
+    position: relative;
+    left: 30%;
+    top: 50px;
+    
+}
+form .companyname{
+    width: 180px;
+    height: 40px;
+    background-color: blue;
+    position: relative;
+    left: 0%;
+    top: 100px;
+    
+}
+form .password{
+    width: 180px;
+    height: 40px;
+    background-color: blue;
+    position: relative;
+    left: 0%;
+    top: 100px;
+    
+}
+form .button{
+    width: 130px;
+    height: 30px;
+    background-color: gray;
+    position: relative;
+    left: 0%;
+    top: 50px;
+    
+}
+form .formimage{
+    background-color:goldenrod;
+    width: 330%;
+    height: 400px;
+    position: relative;
+    top: -430px;
+    left: -600%;
+}
+.contacticon{
+    background-color: blue;
+    height: 400px;
+}
+.contacticon .contact-container .contact-member{
+    text-align: center;
+}
+.contacticon .contact-container .contact-member img{
+    width: 200px;
+    height: 130px;
+    background-color: darkslategray;
+    position: relative;
+    top: 20px;
+    left: -35%;
+    border-radius: 50px;
+}
+.contacticon .contact-container .contact-member h1{
+    width: 150px;
+    height: 40px;
+    background-color: pink;
+    position: relative;
+    left: 10%;
+    top: 30px;
+
+}
+.contacticon .contact-container .contact-member p{
+    width: 190px;
+    height: 90px;
+    background-color: pink;
+    position: relative;
+    left: 10%;
+    top: 70px;
+
+}
+.contacticon .contact-container .contact-member1 img{
+    width: 200px;
+    height: 130px;
+    background-color: darkslategray;
+    position: relative;
+    top: -250px;
+    left: -15%;
+    border-radius: 50px;
+}
+.contacticon .contact-container .contact-member1 h1{
+    width: 150px;
+    height: 40px;
+    background-color: pink;
+    position: relative;
+    left: 30%;
+    top: -240px;
+
+}
+.contacticon .contact-container .contact-member1 p{
+    width: 190px;
+    height: 90px;
+    background-color: pink;
+    position: relative;
+    left: 30%;
+    top:-200px;
+
+}
+.contacticon .contact-container .contact-member2 img{
+    width: 200px;
+    height: 130px;
+    background-color: darkslategray;
+    position: relative;
+    top: -510px;
+    left: 5%;
+    border-radius: 50px;
+}
+.contacticon .contact-container .contact-member2 h1{
+    width: 150px;
+    height: 40px;
+    background-color: pink;
+    position: relative;
+    left: 50%;
+    top: -500px;
+
+}
+.contacticon .contact-container .contact-member2 p{
+    width: 190px;
+    height: 90px;
+    background-color: pink;
+    position: relative;
+    left: 50%;
+    top:-460px;
+
+}
+.contacticon .contact-container .contact-member3 img{
+    width: 200px;
+    height: 130px;
+    background-color: darkslategray;
+    position: relative;
+    top: -770px;
+    left: 25%;
+    border-radius: 50px;
+}
+.contacticon .contact-container .contact-member3 h1{
+    width: 150px;
+    height: 40px;
+    background-color: pink;
+    position: relative;
+    left: 70%;
+    top: -760px;
+
+}
+.contacticon .contact-container .contact-member3 p{
+    width: 190px;
+    height: 90px;
+    background-color: pink;
+    position: relative;
+    left: 70%;
+    top:-720px;
+
+}
+.footer{
+    background-color: gray;
+    height: 50px;
+}
+.footer .heading h2{
+    width: 150px;
+    height: 20px;
+    background-color: blue;
+    position: relative;
+    top: 10px;
+    left: 40%;
+}
